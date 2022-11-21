@@ -24,11 +24,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      {{birthday_message.DATA}}
-      
-      ---
-      
-      {{note_en.DATA}} {{note_ch.DATA}}
+      {{poetry_content.DATA}}
       
       ---
       
