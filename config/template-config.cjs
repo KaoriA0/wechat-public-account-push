@@ -1,7 +1,7 @@
 /* eslint-disable */
 const TEMPLATE_CONFIG = [
   {
-    id: '9D3aXyNtNpu5jE9cDPX0xZNZ7eLMRNX2QnZCZEOSMCA',
+    id: 'ltWXlBFks7lkmL0Iu-FR8k0JtMFK9vQtwNDutkacypg',
     title: '早上好',
     desc: `
       **{{date.DATA}}**
@@ -24,17 +24,15 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      今天是我们相识的第{{love_day.DATA}}天
-      
       {{birthday_message.DATA}}
       
       ---
       
-      {{earthy_love_words.DATA}}
+      {{note_en.DATA}} {{note_ch.DATA}}
       
       ---
       
-      {{poetry_content.DATA}}
+      {{earthy_love_words.DATA}}
     `
   },
   {
