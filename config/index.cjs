@@ -31,7 +31,7 @@ SWITCH: {
     oneTalk: false,
     
     // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    earthyLoveWords: true,
+    earthyLoveWords: false,
     
     // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     momentCopyrighting: false,
@@ -55,6 +55,16 @@ SWITCH: {
     courseSchedule: false,
   },
   
+  TIAN_API: {
+    // 天行API KEY，如果使用天行API则需要填写此项
+    key: 'd5b66bf7433b5925192db746232e6fda',
+    
+    /** 天行API相关，需要config中配置 TIAN_API_KEY  */
+    // 彩虹屁
+    earthyLoveWords: true
+
+  },
+  
   PROVINCE: '广东',
   CITY: '中山',
 
@@ -65,7 +75,7 @@ SWITCH: {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'olbFg55sTeWKkz0sBf7NeZULxiN4',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'ltWXlBFks7lkmL0Iu-FR8k0JtMFK9vQtwNDutkacypg',
+      useTemplateId: 'InOoXk3Tar6X-wDyrN-zq479ejia1XRVhvl87nniOMg',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
