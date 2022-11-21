@@ -1,7 +1,7 @@
 /* eslint-disable */
 const TEMPLATE_CONFIG = [
   {
-    id: 'ltWXlBFks7lkmL0Iu-FR8k0JtMFK9vQtwNDutkacypg',
+    id: 'InOoXk3Tar6X-wDyrN-zq479ejia1XRVhvl87nniOMg',
     title: '早上好',
     desc: `
       **{{date.DATA}}**
@@ -32,7 +32,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      {{earthy_love_words.DATA}}
+      {{tian_api_earthy_love_words.DATA}}
     `
   },
   {
