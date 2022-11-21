@@ -37,7 +37,7 @@ SWITCH: {
     momentCopyrighting: false,
     
     // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    poisonChickenSoup: false,
+    poisonChickenSoup: true,
     
     // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     poetry: false,
@@ -48,7 +48,7 @@ SWITCH: {
   
     /** 生日消息和节日消息 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    birthdayMessage: true,
+    birthdayMessage: false,
   
     /** 学生课表 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
@@ -66,7 +66,7 @@ SWITCH: {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'olbFg55sTeWKkz0sBf7NeZULxiN4',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0xEEMKxXSkn4skq6Vw467sS7l8zgocGi0SetU6t_RSQ',
+      useTemplateId: 'wbilV6bVnh8RdblMuZt7nNrLwHy8fgAI8EWZM0oeYEs',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
