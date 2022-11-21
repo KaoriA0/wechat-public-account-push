@@ -64,14 +64,14 @@ SWITCH: {
       // 想要发送的人的名字
       name: '瑜瑜瑜瑜瑜',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'olbFg55sTeWKkz0sBf7NeZULxiN4',
+      id: 'olbFg5-VFZ5fxZtemlmgFporwKkI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'C4ynf-y88UEMzjUMbS1tNoRNvcY9e7QjorZIkvdymkE',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1999', date: '10-13',
+          type: '*生日', name: '宝', year: '1999', date: '10-13',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
