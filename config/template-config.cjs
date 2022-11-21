@@ -1,7 +1,7 @@
 /* eslint-disable */
 const TEMPLATE_CONFIG = [
   {
-    id: 'YiqFCBkVwHzez8qzmAYqQcETaqZRDsKDtzAmNyrqPD8',
+    id: '9D3aXyNtNpu5jE9cDPX0xZNZ7eLMRNX2QnZCZEOSMCA',
     title: '早上好',
     desc: `
       **{{date.DATA}}**
@@ -20,6 +20,8 @@ const TEMPLATE_CONFIG = [
       
       风级: {{wind_scale.DATA}}
       
+      温馨提示: {{notice.DATA}}
+      
       ---
       
       今天是我们相识的第{{love_day.DATA}}天
@@ -28,9 +30,11 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      {{moment_copyrighting.DATA}}
+      {{earthy_love_words.DATA}}
       
-      {{poetry_title.DATA}} {{poetry_content.DATA}}
+      ---
+      
+      {{poetry_content.DATA}}
     `
   },
   {
