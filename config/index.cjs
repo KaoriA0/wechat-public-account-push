@@ -25,7 +25,7 @@ SWITCH: {
 
     /** 每日N句 */
     // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    CIBA: false,
+    CIBA: true,
     
     // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     oneTalk: false,
@@ -40,7 +40,7 @@ SWITCH: {
     poisonChickenSoup: false,
     
     // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    poetry: true,
+    poetry: false,
 
     /** 星座运势 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
@@ -65,7 +65,7 @@ SWITCH: {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'olbFg55sTeWKkz0sBf7NeZULxiN4',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '9D3aXyNtNpu5jE9cDPX0xZNZ7eLMRNX2QnZCZEOSMCA',
+      useTemplateId: 'ltWXlBFks7lkmL0Iu-FR8k0JtMFK9vQtwNDutkacypg',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -81,10 +81,10 @@ SWITCH: {
         },
       ],
       // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2022-11-08' },
-      ],
+//       customizedDateList: [
+//         在一起的日子
+//         { keyword: 'love_day', date: '2022-11-08' },
+//       ],
     },
   ],
 
