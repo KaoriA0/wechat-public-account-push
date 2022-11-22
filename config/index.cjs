@@ -67,6 +67,8 @@ SWITCH: {
       id: 'olbFg5-VFZ5fxZtemlmgFporwKkI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'C4ynf-y88UEMzjUMbS1tNoRNvcY9e7QjorZIkvdymkE',
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: 'https://www.skypixel.com/',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -100,6 +102,17 @@ SWITCH: {
       id: 'olbFg55sTeWKkz0sBf7NeZULxiN4',
     }
   ],
+  
+  
+  /** 你可以在这里写超多的你想显示的内容了！
+   * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
+   * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }}
+   * */
+  SLOT_LIST: [
+    // 这样配置的话，就会每次发送这句话
+    { keyword: 'encourage_oneself', contents: '每当下雨的时候我就想起你，一直想不通是为了什么，原来听窗外的雨声，好像你在拍打着我心弦的声音' },
+  ],
+  
 
 }
 
