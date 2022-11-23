@@ -37,10 +37,10 @@ SWITCH: {
     momentCopyrighting: false,
     
     // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    poisonChickenSoup: false,
+    poisonChickenSoup: true,
     
     // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    poetry: true,
+    poetry: false,
 
     /** 星座运势 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
@@ -108,10 +108,7 @@ SWITCH: {
    * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
    * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }}
    * */
-  SLOT_LIST: [
-    // 这样配置的话，就会每次发送这句话
-    { keyword: 'encourage_oneself', contents: '每当下雨的时候我就想起你，一直想不通是为了什么，原来听窗外的雨声，好像你在拍打着我心弦的声音' },
-  ],
+
   
 
 }
