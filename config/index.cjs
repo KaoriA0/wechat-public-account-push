@@ -66,7 +66,7 @@ SWITCH: {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'olbFg5-VFZ5fxZtemlmgFporwKkI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'C4ynf-y88UEMzjUMbS1tNoRNvcY9e7QjorZIkvdymkE',
+      useTemplateId: 'g6a-Te5uXK38wRr942-kE6T_Ra-YkrPllqsT-IKCQn4',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: 'https://www.skypixel.com/',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
