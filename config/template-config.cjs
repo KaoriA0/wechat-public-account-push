@@ -1,7 +1,7 @@
 /* eslint-disable */
 const TEMPLATE_CONFIG = [
   {
-    id: 'C4ynf-y88UEMzjUMbS1tNoRNvcY9e7QjorZIkvdymkE',
+    id: 'g6a-Te5uXK38wRr942-kE6T_Ra-YkrPllqsT-IKCQn4',
     title: '早上好',
     desc: `
       **{{date.DATA}}**
@@ -24,7 +24,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      {{poetry_content.DATA}}
+      {{poison_chicken_soup.DATA}}
       
       ---
       
