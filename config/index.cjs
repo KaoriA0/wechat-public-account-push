@@ -57,7 +57,7 @@ SWITCH: {
   
   
   PROVINCE: '广东',
-  CITY: '中山',
+  CITY: '连州',
 
   USERS: [
     {
