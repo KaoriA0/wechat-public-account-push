@@ -57,7 +57,7 @@ SWITCH: {
   
   
   PROVINCE: '广东',
-  CITY: '连州',
+  CITY: '湛江',
 
   USERS: [
     {
