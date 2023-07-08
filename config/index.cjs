@@ -57,7 +57,7 @@ SWITCH: {
   
   
   PROVINCE: '广东',
-  CITY: '湛江',
+  CITY: '清远',
 
   USERS: [
     {
